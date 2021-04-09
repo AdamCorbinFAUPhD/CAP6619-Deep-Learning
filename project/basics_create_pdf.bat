@@ -1,0 +1,1 @@
+pandoc --from=markdown --to=latex --template=template.latex --filter pandoc-tablenos --citeproc --bibliography=citations1.bib --csl=ieee --output=basics.pdf basics.md 
